@@ -1,0 +1,27 @@
+{
+  "bin_t_s": 2.0,
+  "bin_x_ft": 100.0,
+  "per_lane": {
+    "1": {
+      "mean_speed_mph": 25.862489064321853,
+      "frac_congested_lt35mph": 0.794141829393628
+    },
+    "2": {
+      "mean_speed_mph": 28.308417843622067,
+      "frac_congested_lt35mph": 0.7570217546726585
+    },
+    "3": {
+      "mean_speed_mph": 28.211926765744035,
+      "frac_congested_lt35mph": 0.7733883445074781
+    },
+    "4": {
+      "mean_speed_mph": 28.973336281988797,
+      "frac_congested_lt35mph": 0.759778289060866
+    },
+    "5": {
+      "mean_speed_mph": 29.9518258324466,
+      "frac_congested_lt35mph": 0.7388711395101172
+    }
+  },
+  "wave_regime_confirmed": true
+}

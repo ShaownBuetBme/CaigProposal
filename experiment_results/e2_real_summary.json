@@ -1,0 +1,53 @@
+{
+  "n_episodes_total": 2318,
+  "n_episodes_used": 2314,
+  "n_train": 1614,
+  "n_test": 700,
+  "n_train_vehicles": 1313,
+  "n_test_vehicles": 564,
+  "split": "grouped_by_vehicle_id",
+  "target_fit_window": "second_half_of_episode_only",
+  "bootstrap_size": 40,
+  "fixed_params": {
+    "b": 2.0,
+    "s0": 2.0
+  },
+  "results": {
+    "T": {
+      "rmse_point_ridge": 0.9222886638018466,
+      "rmse_point_gb": 0.9202950971665589,
+      "rmse_ensemble": 0.9228161160218814,
+      "coverage_bootstrap_raw": {
+        "0.8": 0.08142857142857143,
+        "0.95": 0.13
+      },
+      "coverage_conformal": {
+        "0.8": 0.7957142857142857,
+        "0.95": 0.9514285714285714
+      },
+      "mean_interval_width_conformal": {
+        "0.8": 2.454242752311521,
+        "0.95": 4.281832051306265
+      },
+      "target_std": 1.049929797346465
+    },
+    "a": {
+      "rmse_point_ridge": 0.335061799365733,
+      "rmse_point_gb": 0.346150367512685,
+      "rmse_ensemble": 0.33507988645930215,
+      "coverage_bootstrap_raw": {
+        "0.8": 0.08,
+        "0.95": 0.12142857142857143
+      },
+      "coverage_conformal": {
+        "0.8": 0.7628571428571429,
+        "0.95": 0.9457142857142857
+      },
+      "mean_interval_width_conformal": {
+        "0.8": 0.7598674305208541,
+        "0.95": 1.3543438994895758
+      },
+      "target_std": 0.3369102075457323
+    }
+  }
+}

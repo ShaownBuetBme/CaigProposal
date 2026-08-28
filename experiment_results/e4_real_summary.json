@@ -1,0 +1,27 @@
+{
+  "n_samples": 4255,
+  "onset_rate": 0.13466509988249117,
+  "temporal_split_s": 640.0,
+  "results": [
+    {
+      "split": "temporal_holdout",
+      "n_train": 2707,
+      "n_test": 1308,
+      "base_rate": 0.2545871559633027,
+      "auroc_gb": 0.7582828982828984,
+      "auprc_gb": 0.5319120935026178,
+      "auroc_persistence": 0.44899514899514903,
+      "auprc_majority": 0.2545871559633027
+    },
+    {
+      "split": "lane_holdout",
+      "n_train": 2560,
+      "n_test": 1695,
+      "base_rate": 0.07728613569321534,
+      "auroc_gb": 0.7890367232189922,
+      "auprc_gb": 0.39292399744494744,
+      "auroc_persistence": 0.4798861794966909,
+      "auprc_majority": 0.07728613569321534
+    }
+  ]
+}

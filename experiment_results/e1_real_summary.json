@@ -1,0 +1,53 @@
+{
+  "n_windows": 66337,
+  "n_train": 47025,
+  "n_test": 19312,
+  "n_train_vehicles": 1313,
+  "n_test_vehicles": 564,
+  "idm_population_params": {
+    "T": 1.031,
+    "a": 0.458
+  },
+  "results": [
+    {
+      "horizon_s": 1.0,
+      "mape_gb": 7.341877048507666,
+      "mape_persistence": 9.45501863377961,
+      "mape_const_accel": 10.391128826381903,
+      "mape_idm_physics": 9.693596744466763,
+      "rmse_gb": 0.7215600243285677,
+      "rmse_persistence": 0.938173656624129,
+      "rmse_idm_physics": 0.8089456066163251
+    },
+    {
+      "horizon_s": 2.0,
+      "mape_gb": 9.916300394453312,
+      "mape_persistence": 15.117641898044889,
+      "mape_const_accel": 16.340505836290912,
+      "mape_idm_physics": 13.767724498596765,
+      "rmse_gb": 0.9119770368673382,
+      "rmse_persistence": 1.353806783909817,
+      "rmse_idm_physics": 1.007629249557112
+    },
+    {
+      "horizon_s": 4.0,
+      "mape_gb": 18.421494329896152,
+      "mape_persistence": 25.85704805280531,
+      "mape_const_accel": 29.104280292917807,
+      "mape_idm_physics": 15.843772182294845,
+      "rmse_gb": 1.5095772149325786,
+      "rmse_persistence": 2.148245858206141,
+      "rmse_idm_physics": 1.230508947276227
+    },
+    {
+      "horizon_s": 8.0,
+      "mape_gb": 40.38857245976182,
+      "mape_persistence": 43.66741366830069,
+      "mape_const_accel": 52.66260088632065,
+      "mape_idm_physics": 12.544738891204831,
+      "rmse_gb": 2.7519245619117574,
+      "rmse_persistence": 3.4083620309027527,
+      "rmse_idm_physics": 1.411070616259259
+    }
+  ]
+}

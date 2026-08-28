@@ -1,0 +1,13 @@
+{
+  "id": "shaownbuetbme/safetwin-realdata-e0e2e4",
+  "title": "Safetwin realdata e0e2e4",
+  "code_file": "safetwin_realdata_e0e2e4.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": false,
+  "enable_gpu": false,
+  "enable_internet": false,
+  "dataset_sources": ["nigelwilliams/ngsim-vehicle-trajectory-data-us-101"],
+  "competition_sources": [],
+  "kernel_sources": []
+}
